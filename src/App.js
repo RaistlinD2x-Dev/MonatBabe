@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./YoutubeEmbed.css";
+import YoutubeEmbed from "./YoutubeEmbed";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jamie's Monat Page!
-        </a>
-      </header>
+      <h1>Monat Babe Youtube Channel</h1>
+      <YoutubeEmbed embedId="nULUddTI46w" />
     </div>
   );
 }
-
-export default App;
